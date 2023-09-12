@@ -1,0 +1,14 @@
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\bin\Debug\net7.0\BTVN_Buoi3.exe
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\bin\Debug\net7.0\BTVN_Buoi3.deps.json
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\bin\Debug\net7.0\BTVN_Buoi3.runtimeconfig.json
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\bin\Debug\net7.0\BTVN_Buoi3.dll
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\bin\Debug\net7.0\BTVN_Buoi3.pdb
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\obj\Debug\net7.0\BTVN_Buoi3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\obj\Debug\net7.0\BTVN_Buoi3.AssemblyInfoInputs.cache
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\obj\Debug\net7.0\BTVN_Buoi3.AssemblyInfo.cs
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\obj\Debug\net7.0\BTVN_Buoi3.csproj.CoreCompileInputs.cache
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\obj\Debug\net7.0\BTVN_Buoi3.dll
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\obj\Debug\net7.0\refint\BTVN_Buoi3.dll
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\obj\Debug\net7.0\BTVN_Buoi3.pdb
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\obj\Debug\net7.0\BTVN_Buoi3.genruntimeconfig.cache
+C:\Tin\Courses\Unity\GitHub\BTVN_Buoi3\obj\Debug\net7.0\ref\BTVN_Buoi3.dll
