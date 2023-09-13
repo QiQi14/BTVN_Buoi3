@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BTVN_Buoi3/1.0.0": {
+        "runtime": {
+          "BTVN_Buoi3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BTVN_Buoi3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
