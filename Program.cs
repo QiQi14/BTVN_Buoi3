@@ -50,6 +50,33 @@ class BTVNBuoi3 {
 
     public static string Bai2(string[] name, float[] grade)
     {
-        return "";
+        string ketqua = "";
+        for (int i = 0; i < grade.Length; i++)
+        {
+            string hocluc = "";
+            if ((grade[i] + 0.2F >= Math.Ceiling(grade[i]) && grade[i] != Math.Ceiling(grade[i])))
+            {
+                grade[i] = Convert.ToInt32(Math.Ceiling(grade[i]));
+
+            }
+            if (grade[i] < 4)
+            {
+                hocluc = "Hoc lai";
+            }
+            else if (grade[i] >= 4 && grade[i] < 6)
+            {
+                hocluc = "Trung binh";
+            }
+            else if (grade[i] >= 6 && grade[i] < 8)
+            {
+                hocluc = "Kha";
+            }
+            else
+            {
+                hocluc = "Gioi";
+            }
+            ketqua += "Hoc vien: " + name[i] + ";" + " Diem: " +  grade[i] + ";" + " Hoc luc: "  + hocluc + "\n";
+        }
+        return ketqua;
     }
 }
