@@ -16,7 +16,7 @@ class BTVNBuoi3
         return "";
         string result = "";
         string[] str = Regex.Split(ampm, @":");
-        if (Int16.Parse(str[0]) > 12)
+        if (Int32.Parse(str[0]) > 12)
         {
             return "Input False";
         }
@@ -24,19 +24,19 @@ class BTVNBuoi3
         {
             if (str[2].Contains("PM"))
             {
-                if (Int16.Parse(str[0]) == 12)
+                if (Int32.Parse(str[0]) == 12)
                 {
                     result = str.ToString();
                 }
                 else
                 {
-                    int time = Int16.Parse(str[0]) + 12;
+                    int time = Int32.Parse(str[0]) + 12;
                     result = time.ToString() + ":" + str[1] + ":" + str[2].Remove(2);
                 }
             }
             else if (str[2].Contains("AM"))
             {
-                if (Int16.Parse(str[0]) == 12)
+                if (Int32.Parse(str[0]) == 12)
                 {
                     str[0] = "00";
                     result = str[0] + ":" + str[1] + ":" + str[2].Remove(2);
