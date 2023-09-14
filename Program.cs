@@ -84,7 +84,7 @@ class BTVNBuoi3
             }
             else if (diem_new >= 4 )
             {
-                Console.WriteLine("Hoc Vien " + name[j] + " co diem " + diem_new + " Trung binh" + " | " + name[j] + ":" + Convert.ToInt16(grade[j]));
+                Console.WriteLine("Hoc Vien " + name[j] + " co diem " + diem_new + " Trung binh" + " | " + name[j] + ":" + Convert.ToInt32(Math.Ceiling(grade[j])));
             }
             else if ( diem_new < 6)
             {
@@ -92,7 +92,7 @@ class BTVNBuoi3
             }
             else if (diem_new > 6 )
             {
-                Console.WriteLine("Hoc Vien " + name[j] + " co diem " + diem_new + " Kha" + " | " + name[j] + ":" + Convert.ToInt16(grade[j]));
+                Console.WriteLine("Hoc Vien " + name[j] + " co diem " + diem_new + " Kha" + " | " + name[j] + ":" + Convert.ToInt32(Math.Ceiling(grade[j])));
             }
             else if ( diem_new < 8)
             {
@@ -100,7 +100,7 @@ class BTVNBuoi3
             }
             else if (diem_new >= 8 && diem_new <= 10)
             {
-                Console.WriteLine("Hoc Vien " + name[j] + " co diem " + diem_new + " Gioi" + " | " + name[j] + ":" + Convert.ToInt16(grade[j]));
+                Console.WriteLine("Hoc Vien " + name[j] + " co diem " + diem_new + " Gioi" + " | " + name[j] + ":" + Convert.ToInt32(Math.Ceiling(grade[j])));
             }
             else
             {
