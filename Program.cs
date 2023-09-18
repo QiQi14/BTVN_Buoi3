@@ -54,6 +54,7 @@ class BTVNBuoi3
     {
         string result = "";
         string str = "";
+        string status = "";
         float round = 0;
         Dictionary<string, float> Danhsach = new Dictionary<string, float>();
         for (int i = 0; i < name.Length; i++)
@@ -62,15 +63,33 @@ class BTVNBuoi3
         }
         foreach (var hocsinh in Danhsach)
         {
+            round = hocsinh.Value + 0.2f;
+            if (round < 4)
+            {
+                status = round + " < 4 " + " ===> Học lại";
+            }
+            if (round < 6&& round >=4)
+            {
+                status = " 4 <= " + round + " < 6 " + " ===> Trung Bình";
+            }
+            else if (round > 6 && round < 8)
+            {
+                status = "  6 <= " + round + " < 8 " + " ===> Khá";
+            }
+            else if (round >= 8)
+            {
+                status = round + " >= 8 " + " ===> Giỏi";
+
+            }
             if (hocsinh.Value < 3.5f)
             {
-                result = result +"\nHọc sinh: " + hocsinh.Key + "   Điểm số: " + hocsinh.Value + "+ 0.2 = " + round;
+                result = result + "\nHọc sinh: " + hocsinh.Key + "   Điểm số: " + hocsinh.Value + " + 0.2 = " + round + "    " + status;
             }
             else
             {
-                round = hocsinh.Value + 0.2f;
-                result = result +"\nHọc sinh: " + hocsinh.Key + "   Điểm số: " + hocsinh.Value + "+ 0.2 = " + round;
+                result = result + "\nHọc sinh: " + hocsinh.Key + "   Điểm số: " + hocsinh.Value + " + 0.2 = " + round +"    "+ status;
             }
+
         }
         return result;
     }
