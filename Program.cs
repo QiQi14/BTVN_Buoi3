@@ -64,15 +64,13 @@ class BTVNBuoi3
         {
             if (hocsinh.Value < 3.5f)
             {
-                return result;
-                continue;
+                result = result +"\nHọc sinh: " + hocsinh.Key + "   Điểm số: " + hocsinh.Value + "+ 0.2 = " + round;
             }
             else
             {
                 round = hocsinh.Value + 0.2f;
-                result = "\nHọc sinh: " + hocsinh.Key + "   Điểm số: " + hocsinh.Value + "+ 0.2 = " + round;
+                result = result +"\nHọc sinh: " + hocsinh.Key + "   Điểm số: " + hocsinh.Value + "+ 0.2 = " + round;
             }
-            return result;
         }
         return result;
     }
